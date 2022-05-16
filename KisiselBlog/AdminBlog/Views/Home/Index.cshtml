@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/login.css" />
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <img src="~/img/log.jpg" id="logicon"/>
+        </div>
+
+        <!-- Login Form -->
+        <form method="POST" action="/Home/Login" autocomplete="off">
+            <input type="text" class="fadeIn second" name="Email" placeholder="Email">
+            <input type="text" class="fadeIn third" name="Password" placeholder="Password">
+            <input type="submit" class="fadeIn fourth" value="Log In">
+        </form>
+
+    </div>
+</div>
